@@ -1,6 +1,26 @@
-# mern_graphql_book_app
+# MERN GraphQL Book App
 
-# User Story
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
+
+## Description
+An app that allows a user to search, save, and remove from a favorites list to purchase.
+
+## Table of Contents
+  - [Usage](#usage)
+  - [User Story](#userstory)  
+  - [Tests](#tests)
+  - [Installation](#installation)
+  - [Screenshots and Video](#screenshots)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
+  - [License](#license)
+      
+
+
+## Usage
+Using MERN stack and GraphQL, users query books and add/remove from list. The book list persists on the server-side with user login authentication, so they can come back at a later time to continue editing their list. 
+
+## UserStory
   AS AN avid reader
   I WANT to search for new books to read
   SO THAT I can keep a list of books to purchase
@@ -34,3 +54,36 @@
   THEN that book is deleted from my saved books list
   WHEN I click on the Logout button
   THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
+
+
+
+
+## Tests
+Apollo for query and mutation testing
+
+
+
+## Installation
+Set up in Server-Client Model. package.json "main": "server/server.js", "scripts": { "start": "node/server.js", "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"", "install": "cd server && npm i && cd ../client && npm i", "build": "cd client && npm run build"
+
+
+## Screenshots
+
+![Alt Text](./images/screenshot.png)
+
+
+
+## Questions
+
+Have questions?
+You can find me on GitHub:
+https://github.com/BeKind-Rewind
+
+Or email me at:
+challenge641@gmail.com
+
+
+## License
+
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
+    
